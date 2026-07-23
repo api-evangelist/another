@@ -1,22 +1,68 @@
 aid: another
 name: Another
-description: Another is a company surfaced as a portfolio company of anthemis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Another is an AI-native software platform that modernizes off-channel and off-price
+  inventory operations for fashion, beauty, and retail brands. Founded in 2024 by Corina Marshall,
+  the platform connects to a retailer's existing systems - including returns management - to create
+  a single source of truth for excess, returned, and pre-loved goods, then automates how brands
+  identify, manage, and monetize that inventory across downstream channels. Teams can invite and
+  connect with secondary merchandise recipients, send inventory proposals to buyers, request payment
+  from partners, and let partners request inventory, replacing fragmented manual workflows spread
+  across teams, buyers, channels, and partners. Another closed a $2.5M seed round in January 2026
+  co-led by Anthemis and Westbound. As of this profile the company operates a private, invite-based
+  web application and publishes no public API, developer portal, or technical documentation.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/another.png
 url: https://raw.githubusercontent.com/api-evangelist/another/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - anthemis
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: no-public-api
+x-tier-reason: portfolio-lead-no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Retail
+- Inventory
+- Artificial Intelligence
+- Fashion
+- E-Commerce
+- Supply Chain
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/another-domain-security.yml
+- type: Website
+  url: https://www.joinanother.io/
+- type: SignUp
+  url: https://app.joinanother.io/signup
+- type: Login
+  url: https://app.joinanother.io/signin
+- type: Contact
+  url: https://www.joinanother.io/contact
+- type: TermsOfService
+  url: https://www.joinanother.io/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.joinanother.io/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
