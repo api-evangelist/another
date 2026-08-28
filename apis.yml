@@ -10,6 +10,17 @@ description: Another is an AI-native software platform that modernizes off-chann
   across teams, buyers, channels, and partners. Another closed a $2.5M seed round in January 2026
   co-led by Anthemis and Westbound. As of this profile the company operates a private, invite-based
   web application and publishes no public API, developer portal, or technical documentation.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
